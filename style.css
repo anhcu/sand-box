@@ -1,0 +1,25 @@
+p, h1, h2, li{
+    font-family:Arial, Helvetica, sans-serif;
+    color: blue;
+}
+
+.container{
+    width: 50em;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo, img{
+    width: 40%;
+}
+
+img{
+    width: 70%;
+    border-radius: 5%;
+}
+
+.bio{
+    padding: 30px;
+}
