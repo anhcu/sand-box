@@ -1,25 +1,80 @@
-p, h1, h2, li{
-    font-family:Arial, Helvetica, sans-serif;
-    color: blue;
+/* General Styles */
+h1, h2, h3, li, p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 40, 86);
 }
 
-.container{
+p {
+    color: rgb(85, 85, 85);
+}
+
+/* Container Styles */
+.container {
     width: 50em;
-    border: 1px solid black;
+    border: 1px solid rgb(185, 204, 207);
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: rgb(255, 255, 242);
+    background-image: url(61804.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
 }
 
-.logo, img{
-    width: 40%;
-}
-
-img{
+/* Image Styles */
+img {
+    display: block;
+    margin: 0 auto;
     width: 70%;
-    border-radius: 5%;
 }
 
-.bio{
-    padding: 30px;
+.headshot img {
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 17px 21px 58px -7px rgba(249, 246, 244, 1);
+}
+
+/* Provider Section */
+.provider {
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* About Section */
+.aboutMD {
+    text-align: center;
+}
+
+/* Bio Section */
+.bio {
+    padding: 20px;
+}
+
+/* Button Styles */
+#myBtn {
+    background-color: rgba(33, 178, 106);
+    font-size: 15px;
+    color: rgba(249, 246, 244, 1);
+    border-radius: 8px;
+    padding: 10px 24px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: rgb(185, 204, 207);
+}
+
+.footerContainer {
+    display: flex;
+    padding: 20px;
+}
+
+.footerContainer > div {
+    flex-grow: 1;
+    text-align: center;
 }
